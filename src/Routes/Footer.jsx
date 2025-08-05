@@ -1,6 +1,6 @@
 import React from 'react'
 import bolo from "../assets/sideHustle.png"
-import logo from "../assets/Logo1.png";
+import logo from "../assets/Logo.png";
 import { FiFacebook,FiTwitter,FiChrome} from 'react-icons/fi';
 import { FaLinkedin } from 'react-icons/fa6';
 

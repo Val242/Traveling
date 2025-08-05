@@ -3,6 +3,7 @@ import bgImage from "../assets/bgImage.png"; // correct path from Routes/ to ass
 import logo from "../assets/Logo.png";
 import { NavLink } from "react-router-dom";
 import '../App.css'
+import Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
         <p className="text-white">Scroll Down to Continue</p>
       </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

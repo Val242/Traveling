@@ -1,6 +1,6 @@
 import React from 'react'
 import bgImage from '../assets/tipsbg.png'
-import logo from "../assets/Logo1.png";
+import logo from "../assets/Logo.png";
 import { NavLink } from "react-router-dom";
 import goingWild from "../assets/goingWild.png"
 import { FaMapMarkerAlt } from "react-icons/fa";
@@ -284,7 +284,7 @@ function Tips() {
                       </div>
                     </div>
 
-                     <Footer></Footer>
+                     
                    
                      
                     
@@ -293,6 +293,7 @@ function Tips() {
                   
 
                 </div>
+                <Footer></Footer>
       
       </div>
   )
