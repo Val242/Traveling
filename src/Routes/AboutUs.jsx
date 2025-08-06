@@ -72,9 +72,9 @@ Praesent enim augue tellus vitae placerat purus pretium at massa. Aliquet a male
                             </p>
                           </div>
                           <div className='grid grid-cols-2 grid-rows-2 gap-y-3 gap-x-6'>
-                            <div className='grid grid-rows-4 '>
+                            <div className='grid grid-rows-[1fr_4fr_4fr_4fr_2fr]'>
                               <div className=''>
-                                      <h1>Our Story</h1>
+                                      <h1 className='text-3xl'>Our Story</h1>
                               </div>
                                 <div>
                                   <p className='font-sans '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus. </p>
@@ -89,7 +89,63 @@ Praesent enim augue tellus vitae placerat purus pretium at massa. Aliquet a male
                                   <p className='font-sans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero.</p>
                                 </div>
                             </div>
-                                  
+
+                                    <div className='grid grid-rows-[1fr_4fr_4fr_4fr_2fr] '>
+                              <div className=''>
+                                      <h1 className='text-3xl'>Who are Red Explorers</h1>
+                              </div>
+                                <div>
+                                  <p className='font-sans '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus. </p>
+                                </div>
+                                <div>
+                                  <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
+                                </div>
+                                <div>
+                                  <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
+                                </div>
+                                <div>
+                                  <p className='font-sans span-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero.</p>
+                                </div>
+                            </div>
+
+                                      <div className='grid grid-rows-[1fr_4fr_4fr_4fr_2fr] '>
+                              <div  >
+                                      <h1 className='text-3xl'> About Our Cameraman</h1>
+                              </div>
+                                <div>
+                                  <p className='font-sans '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus. </p>
+                                </div>
+                                <div>
+                                  <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
+                                </div>
+                                <div>
+                                  <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
+                                </div>
+                                <div>
+                                  <p className='font-sans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero.</p>
+                                </div>
+                            </div>
+
+                            <div className='grid grid-rows-[1fr_4fr_4fr_4fr_2fr]'>
+                              <div>
+                                 <h1 className='text-3xl'> What you'll Learn Here</h1>
+                              </div>
+                              <div>
+                                <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
+                              </div>
+                              <div>
+                                <p className='font-sans pb-5 row-span-3'>On Our Website You’ll find:</p>
+                              
+                                <ul className=''>
+                                    <li> Lorem ipsum dolor sit amet, consectetur.</li>
+                                     <li> Lorem ipsum dolor sit amet, consectetur.</li>
+                                      <li> Lorem ipsum dolor sit amet, consectetur.</li>
+                                       <li> Lorem ipsum dolor sit amet, consectetur.</li>
+                                        <li> Lorem ipsum dolor sit amet, consectetur.</li>
+                                </ul>
+                              </div>
+
+                            </div>
 
                           </div>
           </div>
