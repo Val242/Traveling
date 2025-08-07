@@ -4,6 +4,10 @@ import logo from "../assets/Logo.png";
 import { NavLink } from "react-router-dom";
 import WTG from "../assets/WTG.png"
 import friends from "../assets/friends.png"
+import Marshall from "../assets/Marshall.png"
+import Tesla from "../assets/Tesla.png"
+import Chocolatory from "../assets/Chocolatory.png"
+import Boss from "../assets/Boss.png"
 
 function AboutUs() {
   return (
@@ -42,7 +46,7 @@ function AboutUs() {
      
             
           </div>
-          <div className='grid grid-cols-2 mb-10 gap-10 justify-center mt-10 ml-7 '>
+          <div className='grid grid-cols-2 mb-10 gap-7 justify-center mt-10 ml-7 '>
                                
                                 <div className='mx-auto ' style={{
                           backgroundImage: `url(${WTG})`,
@@ -148,6 +152,45 @@ Praesent enim augue tellus vitae placerat purus pretium at massa. Aliquet a male
                             </div>
 
                           </div>
+
+                          <div className='flex justify-evenly bg-[#EDEDED] py-5'>
+                            <div><img src={Marshall} alt="" className='w-[205px] h-[142px]' /></div>
+                             <div><img src={Tesla} alt="" className='w-[205px] h-[142px]'/></div>
+                              <div><img src={Chocolatory} alt="" className='w-[205px] h-[142px]'/></div>
+                               <div><img src={Boss} alt="" className='w-[205px] h-[142px]' /></div>
+
+                          </div>
+                           <div className='grid grid-cols-2 mb-10 gap-7 justify-center mt-10 ml-7 '>
+                               
+                                <div className='mx-auto ' style={{
+                          backgroundImage: `url(${WTG})`,
+                          backgroundSize: "cover"}}>
+                                  <h1 className='text-5xl font-sans'>
+                                    What<span className='text-orange-400 underline'>Customer says </span><span className='underline'>About us</span>
+                                  </h1>
+                                </div>
+                                <div>
+                                  <p className='font-bold line leading-loose'>
+                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mor mattis nec etiam ac. Bibendum tellus mi imperdiet amet maecenas magna tortor nulla. Nec tortor ut cursus ornare nibh vivamus. Quam elementum at velit viverra mattis.
+Eleifend enim, praesent eu, leo semper quis et. Nisl neque malesuada arcu, felis, vitae rhoncus morbi volutpat ante. Adipiscing mauris 
+          
+                                  </p>
+                                </div>
+                          
+                        
+                              </div>
+
+                              <div className='flex justify-evenly '>
+                                      <div className='rounded-3xl overflow-hidden'>
+                                            
+                                      </div>
+                                      <div className='rounded-3xl overflow-hidden'>
+
+                                      </div>
+                                      <div className='rounded-3xl overflow-hidden'>
+
+                                      </div>
+                              </div>
           </div>
   )
 }

@@ -9,10 +9,11 @@ import plane from "../assets/plane.png"
 import woman from "../assets/woman.png"
 import mycrush from "../assets/mycrush.png"
 import water from "../assets/water.png"
-import bolo from "../assets/sideHustle.png"
+
 import { FiFacebook,FiTwitter,FiChrome} from 'react-icons/fi';
 import { FaLinkedin } from 'react-icons/fa6';
 import { FaRegCopyright } from 'react-icons/fa';
+
 import Footer from './Footer';
 
 <FaRegCopyright />
