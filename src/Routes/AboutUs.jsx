@@ -180,17 +180,45 @@ Eleifend enim, praesent eu, leo semper quis et. Nisl neque malesuada arcu, felis
                         
                               </div>
 
-                              <div className='flex justify-evenly '>
-                                      <div className='rounded-3xl overflow-hidden'>
-                                            
-                                      </div>
-                                      <div className='rounded-3xl overflow-hidden'>
+                          <div className='grid grid-cols-3 gap-y-3 mx-7'>
 
-                                      </div>
-                                      <div className='rounded-3xl overflow-hidden'>
+                            <div className='grid grid-rows-[4fr_1fr] rounded-3xl overflow-hidden'>
 
+                                      <div className='w-[330px] h-[150px]'>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.
                                       </div>
-                              </div>
+                                      <div>Joy Kim explorer</div>
+
+                            </div>
+
+                                  
+                            <div className='grid grid-rows-[4fr_1fr]'>
+
+                                      <div className='w-[330px] h-[150px]'>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.
+                                      </div>
+                                      <div>Joy Kim explorer</div>
+
+                            </div>
+
+                            
+                            <div className='grid grid-rows-[4fr_1fr]'>
+
+                                      <div className='w-[330px] h-[150px]'>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.
+                                      </div>
+                                      <div>Joy Kim explorer</div>
+
+                            </div>
+
+                             <div>
+                              
+                            </div>
+                             <div>
+                              
+                            </div>
+
+                          </div>
           </div>
   )
 }
