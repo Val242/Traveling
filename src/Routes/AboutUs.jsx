@@ -8,6 +8,15 @@ import Marshall from "../assets/Marshall.png"
 import Tesla from "../assets/Tesla.png"
 import Chocolatory from "../assets/Chocolatory.png"
 import Boss from "../assets/Boss.png"
+import nature from "../assets/nature.png"
+import lady from "../assets/lady.png"
+import map from "../assets/map.png"
+import plane from "../assets/plane.png"
+import woman from "../assets/woman.png"
+import mycrush from "../assets/mycrush.png"
+import water from "../assets/water.png"
+
+import Footer from './Footer';
 
 function AboutUs() {
   return (
@@ -180,9 +189,9 @@ Eleifend enim, praesent eu, leo semper quis et. Nisl neque malesuada arcu, felis
                         
                               </div>
 
-                          <div className='grid grid-cols-3 gap-y-3 mx-7'>
+                          <div className='grid grid-cols-3 gap-y-3 mx-7 '>
 
-                            <div className='grid grid-rows-[4fr_1fr] rounded-3xl overflow-hidden'>
+                            <div className='grid grid-rows-[4fr_1fr] rounded-3xl overflow-hidden p-4 '>
 
                                       <div className='w-[330px] h-[150px]'>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.
@@ -192,7 +201,7 @@ Eleifend enim, praesent eu, leo semper quis et. Nisl neque malesuada arcu, felis
                             </div>
 
                                   
-                            <div className='grid grid-rows-[4fr_1fr]'>
+                            <div className='grid grid-rows-[4fr_1fr]  rounded-3xl overflow-hidden p-4'>
 
                                       <div className='w-[330px] h-[150px]'>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.
@@ -202,7 +211,7 @@ Eleifend enim, praesent eu, leo semper quis et. Nisl neque malesuada arcu, felis
                             </div>
 
                             
-                            <div className='grid grid-rows-[4fr_1fr]'>
+                            <div className='grid grid-rows-[4fr_1fr]  rounded-3xl overflow-hidden p-4'>
 
                                       <div className='w-[330px] h-[150px]'>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.
@@ -219,7 +228,48 @@ Eleifend enim, praesent eu, leo semper quis et. Nisl neque malesuada arcu, felis
                             </div>
 
                           </div>
-          </div>
+                           <div className='grid grid-cols-7 grid-rows-1'>
+                        <div>
+                      <img src={nature} alt="nature" />
+                        </div>
+                        <div>
+                      <img src={lady} alt="lady" />
+                        </div>
+                        <div>
+                      <img src={map} alt="map" />
+                        </div>
+                         <div>
+                      <img src={plane} alt="plane" />
+                        </div>
+                       <div>
+                      <img src={woman} alt="woman" />
+                       </div>
+                       <div>
+                      <img src={mycrush} alt="mycrush" />
+                       </div>
+                       <div>
+                      <img src={water} alt="water" />
+                      </div>
+                </div>
+                  <div className='grid place-items-center grid-cols-[1fr_1fr] mt-5  border-b border-b-[#C4C4C4]  '>
+                          <div>
+                            <p className='font-bold text-3xl'>Join 98,641 Monthly Readers. <br /> Subscribe Today!</p>
+                          </div>
+                          <div className='grid grid-cols-[2fr_1fr] gap-x-2 '>
+                             <input type="email"  placeholder='Email Address'
+                          
+                          className='grid  border border-[#9B9DB3] p-2 rounded-[5px] '/>
+                          
+                          <div>
+                            <button className='bg-[#0336FF] w-[150px] h-[50px]  rounded-[5px]'>
+                              Subscribe
+                            </button>
+                          </div>
+                          </div>
+                  </div>
+      <Footer></Footer>
+              </div>
+          
   )
 }
 
