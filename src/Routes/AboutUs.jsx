@@ -37,7 +37,7 @@ function AboutUs() {
          />
 
         </div>
-        <div className="text-[#FFA500] grid grid-cols-5 self-center  ">
+        <div className="text-[#FFA500] grid grid-cols-5 self-center gap-4  ">
          <div className="my-button w-[124px]"><NavLink to= "/"> Home</NavLink></div> 
          <div className="my-button w-[124px]"><NavLink to = "/aboutus">About Us</NavLink></div> 
          <div className="my-button w-[124px]"><NavLink to = "/destination">Destination</NavLink></div> 
