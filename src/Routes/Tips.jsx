@@ -3,6 +3,10 @@ import bgImage from '../assets/tipsbg.png'
 import logo from "../assets/Logo.png";
 import { NavLink } from "react-router-dom";
 import goingWild from "../assets/goingWild.png"
+
+import marker from "../assets/Marker.png"
+import comment from "../assets/Communication.png"
+import star from "../assets/Star.png"
 import northPole from "../assets/northPole.png"
 import summerVibes from "../assets/summerVibes.png"
 import city from "../assets/city.png"
@@ -11,6 +15,10 @@ import beaches from "../assets/beaches.png"
 import trip101 from "../assets/trip101.png"
 import waterFront from "../assets/waterFront.png"
 import mywife from "../assets/blackBeauty.png"
+import bolo from "../assets/sideHustle.png"
+import { FiFacebook,FiTwitter,FiChrome} from 'react-icons/fi';
+import { FaLinkedin } from 'react-icons/fa6';
+import { FaRegCopyright } from 'react-icons/fa';
 import Footer from './Footer';
 import BlogCard from '../BlogCard';
 

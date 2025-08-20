@@ -4,6 +4,18 @@ import logo from "../assets/Logo.png";
 import { NavLink } from "react-router-dom";
 import WTG from "../assets/WTG.png"
 import '../App.css'
+import TravelCard from '../TravelCard';
+import northPole from "../assets/northPole.png"
+import TecGirl from "../assets/TecGirl.png"
+import TouristGirl from "../assets/TouristGirl.png"
+import TravelingG from "../assets/TravelingG.png"
+import Waterman from "../assets/Waterman.png"
+import CoolView from "../assets/CoolView.png"
+import Bus from "../assets/Bus.png"
+import Bridge from "../assets/Bridge.png"
+import HolyChina from "../assets/HolyChina.png"
+import deer from "../assets/deer.png"
+import Footer from './Footer';
 
 function Destination() {
   return (
@@ -82,8 +94,89 @@ function Destination() {
                                 </div>
 
                             </div>
+                              <div className='grid grid-cols-3 grid-rows-3 gap-10 place-items-center mx-5'>
+                                 <TravelCard
+                                      image={TecGirl}
+                                      date="September 16, 2018"
+                                      category="Tips & Tricks"
+                                      title="Finding Love & Home In Tbilisi, Georgia"
+                                      location="Georgia"
+                                      comments={25}
+                                    />
+                                       <TravelCard
+                                      image={TouristGirl}
+                                      date="September 16, 2018"
+                                      category="Tips & Tricks"
+                                      title="Have you read the Beach by Alex?"
+                                      location="Georgia"
+                                      comments={15}
+                                    />
 
+                                        <TravelCard
+                                      image={TravelingG}
+                                      date="September 16, 2018"
+                                      category="Tips & Tricks"
+                                      title="The writer actually live in philippines"
+                                      location="Georgia"
+                                      comments={13}
+                                    />
 
+                                        <TravelCard
+                                      image={Waterman}
+                                      date="September 19, 2018"
+                                      category="Tips & Tricks"
+                                      title="Honestly it’s almost ridiculous how"
+                                      location="Georgia"
+                                      comments={52}
+                                    />
+
+                                        <TravelCard
+                                      image={CoolView}
+                                      date="September 20, 2018"
+                                      category="Tips & Tricks"
+                                      title="The only way to see the islands"
+                                      location="Georgia"
+                                      comments={25}
+                                    />
+
+                                        <TravelCard
+                                      image={Bus}
+                                      date="September 20, 2018"
+                                      category="Tips & Tricks"
+                                      title="Get away from the maddening crowds"
+                                      location="Georgia"
+                                      comments={53}
+                                    />
+
+                                        <TravelCard
+                                      image={Bridge}
+                                      date="September 19, 2018"
+                                      category="Tips & Tricks"
+                                      title="Matsumoto castle is considered one of"
+                                      location="Georgia"
+                                      comments={25}
+                                    />
+
+                                        <TravelCard
+                                      image={HolyChina}
+                                      date="September 16, 2018"
+                                      category="Tips & Tricks"
+                                      title="Many buildings especially in japan"
+                                      location="Georgia"
+                                      comments={25}
+                                    />
+
+                                        <TravelCard
+                                      image={deer}
+                                      date="September 16, 2018"
+                                      category="Tips & Tricks"
+                                      title="Finding Love & Home In Tbilisi, Georgia"
+                                      location="Georgia"
+                                      comments={25}
+                                    />
+
+                                </div>
+                                <Footer />
               </div>
   )
 }
