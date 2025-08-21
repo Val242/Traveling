@@ -21,255 +21,174 @@ import Footer from './Footer';
 function AboutUs() {
   return (
     <div>
-    <div  style={{
-            backgroundImage: `url(${bgImage})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            height: "100vh",
-            width: "100%",
-          }}>
-
-              <div className="grid grid-cols-[1fr_2fr]  ml-3 mr-9 align-middle">
-        <div className="">
-         <img src={logo} alt="Logo" 
-         
-         className="w-[133px] h-[55.67px] "
-         />
-
+    <div
+      style={{
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+      className="min-h-screen w-full"
+    >
+      {/* Navbar */}
+      <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-10 py-4">
+        <img src={logo} alt="Logo" className="w-[133px] h-[55.67px] mb-4 md:mb-0" />
+        <div className="text-[#FFA500] grid grid-cols-2 sm:grid-cols-5 gap-2">
+          <NavLink className="my-button" to="/">Home</NavLink>
+          <NavLink className="my-button" to="/aboutus">About Us</NavLink>
+          <NavLink className="my-button" to="/destination">Destination</NavLink>
+          <NavLink className="my-button" to="/tips">Tips</NavLink>
+          <NavLink className="my-button" to="/contact">Contact</NavLink>
         </div>
-        <div className="text-[#FFA500] grid grid-cols-5 self-center gap-4  ">
-         <div className="my-button w-[124px]"><NavLink to= "/"> Home</NavLink></div> 
-         <div className="my-button w-[124px]"><NavLink to = "/aboutus">About Us</NavLink></div> 
-         <div className="my-button w-[124px]"><NavLink to = "/destination">Destination</NavLink></div> 
-         <div className="my-button w-[124px]"><NavLink to = "/tips">Tips</NavLink></div> 
-         <div className="my-button w-[124px]"><NavLink to = "/contact">Contact</NavLink></div> 
-
-
-        </div>
-        
-          
-
-
-
       </div>
-     
-            
-          </div>
-          <div className='grid grid-cols-2 mb-10 gap-7 justify-center mt-10 ml-7 '>
-                               
-                                <div className='mx-auto ' style={{
-                          backgroundImage: `url(${WTG})`,
-                          backgroundSize: "cover"}}>
-                                  <h1 className='text-5xl font-sans'>
-                                    Hey, We are the Red Explorers Brief History<span className='text-orange-400 '>About Us </span>
-                                  </h1>
-                                </div>
-                                <div>
-                                  <p className='font-bold line leading-loose'>
-                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mor mattis nec etiam ac. Bibendum tellus mi imperdiet amet maecenas magna tortor nulla. Nec tortor ut cursus ornare nibh vivamus. Quam elementum at velit viverra mattis.
-Eleifend enim, praesent eu, leo semper quis et. Nisl neque malesuada arcu, felis, vitae rhoncus morbi volutpat ante. Adipiscing mauris 
-          
-                                  </p>
-                                </div>
-                          
-                        
-                              </div>
-                          <div className='grid grid-cols-1 grid-rows-1 justify-center mx-8'>
-                                      <img src={friends} alt="" />
-                          </div>
-                          <div className='mt-10'>
-                            <p className='font-bold line leading-loose mx-8 text-[18px] pb-10'>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.
-                               Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus. Nisl quam massa sapien tempor semper. Hac tempus pellentesque nibh duis ultrices. Senectus sagittis id ullamcorper mi eget pellentesque egestas. In ut sollicitudin ut orci volutpat egestas fermentum. Sit turpis diam risus leo bibendum neque, quis in vitae. 
-Praesent enim augue tellus vitae placerat purus pretium at massa. Aliquet a malesuada eget posuere. Pellentesque euismod nulla praesent rhoncus.
-                            </p>
-                          </div>
-                          <div className='grid grid-cols-2 grid-rows-2 gap-y-3 gap-x-6'>
-                            <div className='grid grid-rows-[1fr_4fr_4fr_4fr_2fr]'>
-                              <div className=''>
-                                      <h1 className='text-3xl'>Our Story</h1>
-                              </div>
-                                <div>
-                                  <p className='font-sans '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus. </p>
-                                </div>
-                                <div>
-                                  <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
-                                </div>
-                                <div>
-                                  <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
-                                </div>
-                                <div>
-                                  <p className='font-sans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero.</p>
-                                </div>
-                            </div>
 
-                                    <div className='grid grid-rows-[1fr_4fr_4fr_4fr_2fr] '>
-                              <div className=''>
-                                      <h1 className='text-3xl'>Who are Red Explorers</h1>
-                              </div>
-                                <div>
-                                  <p className='font-sans '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus. </p>
-                                </div>
-                                <div>
-                                  <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
-                                </div>
-                                <div>
-                                  <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
-                                </div>
-                                <div>
-                                  <p className='font-sans span-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero.</p>
-                                </div>
-                            </div>
+      {/* Page Title */}
+      <div className="flex justify-center items-center py-16">
+        <h1 className="text-white font-bold text-4xl sm:text-5xl md:text-6xl">About Us</h1>
+      </div>
+</div>
+      {/* Intro Section */}
+      <div className="grid grid-cols-1 md:grid-cols-2 mb-10 gap-7 justify-center mt-10 px-6">
+        <div
+          className="mx-auto"
+          style={{ backgroundImage: `url(${WTG})`, backgroundSize: "cover" }}
+        >
+          <h1 className="text-3xl md:text-5xl font-sans">
+            Hey, We are the Red Explorers Brief History
+            <span className="text-orange-400"> About Us </span>
+          </h1>
+        </div>
+        <div>
+          <p className="font-bold leading-loose">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mor mattis nec etiam ac...
+          </p>
+        </div>
+      </div>
 
-                                      <div className='grid grid-rows-[1fr_4fr_4fr_4fr_2fr] '>
-                              <div  >
-                                      <h1 className='text-3xl'> About Our Cameraman</h1>
-                              </div>
-                                <div>
-                                  <p className='font-sans '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus. </p>
-                                </div>
-                                <div>
-                                  <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
-                                </div>
-                                <div>
-                                  <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
-                                </div>
-                                <div>
-                                  <p className='font-sans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero.</p>
-                                </div>
-                            </div>
+      {/* Friends Image */}
+      <div className="grid justify-center mx-6">
+        <img src={friends} alt="friends" className="rounded-xl" />
+      </div>
 
-                            <div className='grid grid-rows-[1fr_4fr_4fr_4fr_2fr]'>
-                              <div>
-                                 <h1 className='text-3xl'> What you'll Learn Here</h1>
-                              </div>
-                              <div>
-                                <p className='font-sans pb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor pharetra vitae rhoncus.</p>
-                              </div>
-                              <div>
-                                <p className='font-sans pb-5 row-span-3'>On Our Website You’ll find:</p>
-                              
-                                <ul className=''>
-                                    <li> Lorem ipsum dolor sit amet, consectetur.</li>
-                                     <li> Lorem ipsum dolor sit amet, consectetur.</li>
-                                      <li> Lorem ipsum dolor sit amet, consectetur.</li>
-                                       <li> Lorem ipsum dolor sit amet, consectetur.</li>
-                                        <li> Lorem ipsum dolor sit amet, consectetur.</li>
-                                </ul>
-                              </div>
+      {/* Long Text Section */}
+      <div className="mt-10">
+        <p className="font-bold leading-loose mx-6 text-base md:text-lg pb-10">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet...
+        </p>
+      </div>
 
-                            </div>
+      {/* Story Sections */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
+        <div className="grid gap-4">
+          <h1 className="text-2xl md:text-3xl">Our Story</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
 
-                          </div>
+        <div className="grid gap-4">
+          <h1 className="text-2xl md:text-3xl">Who are Red Explorers</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
 
-                          <div className='flex justify-evenly bg-[#EDEDED] py-5'>
-                            <div><img src={Marshall} alt="" className='w-[205px] h-[142px]' /></div>
-                             <div><img src={Tesla} alt="" className='w-[205px] h-[142px]'/></div>
-                              <div><img src={Chocolatory} alt="" className='w-[205px] h-[142px]'/></div>
-                               <div><img src={Boss} alt="" className='w-[205px] h-[142px]' /></div>
+        <div className="grid gap-4">
+          <h1 className="text-2xl md:text-3xl">About Our Cameraman</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
 
-                          </div>
-                           <div className='grid grid-cols-2 mb-10 gap-7 justify-center mt-10 ml-7 '>
-                               
-                                <div className='mx-auto ' style={{
-                          backgroundImage: `url(${WTG})`,
-                          backgroundSize: "cover"}}>
-                                  <h1 className='text-5xl font-sans'>
-                                    What<span className='text-orange-400 underline'>Customer says </span><span className='underline'>About us</span>
-                                  </h1>
-                                </div>
-                                <div>
-                                  <p className='font-bold line leading-loose'>
-                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mor mattis nec etiam ac. Bibendum tellus mi imperdiet amet maecenas magna tortor nulla. Nec tortor ut cursus ornare nibh vivamus. Quam elementum at velit viverra mattis.
-Eleifend enim, praesent eu, leo semper quis et. Nisl neque malesuada arcu, felis, vitae rhoncus morbi volutpat ante. Adipiscing mauris 
-          
-                                  </p>
-                                </div>
-                          
-                        
-                              </div>
+        <div className="grid gap-4">
+          <h1 className="text-2xl md:text-3xl">What you'll Learn Here</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p className="font-bold">On Our Website You’ll find:</p>
+          <ul className="list-disc list-inside">
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+          </ul>
+        </div>
+      </div>
 
-                          <div className='grid grid-cols-3 gap-y-3 mx-7 '>
+      {/* Logos */}
+      <div className="flex flex-wrap justify-center gap-6 bg-[#EDEDED] py-5">
+        <img src={Marshall} alt="Marshall" className="w-[150px] md:w-[205px]" />
+        <img src={Tesla} alt="Tesla" className="w-[150px] md:w-[205px]" />
+        <img src={Chocolatory} alt="Chocolatory" className="w-[150px] md:w-[205px]" />
+        <img src={Boss} alt="Boss" className="w-[150px] md:w-[205px]" />
+      </div>
 
-                            <div className='grid grid-rows-[4fr_1fr] rounded-3xl overflow-hidden p-4 '>
+      {/* Customer Section */}
+      <div className="grid grid-cols-1 md:grid-cols-2 mb-10 gap-7 justify-center mt-10 px-6">
+        <div
+          className="mx-auto"
+          style={{ backgroundImage: `url(${WTG})`, backgroundSize: "cover" }}
+        >
+          <h1 className="text-3xl md:text-5xl font-sans">
+            What <span className="text-orange-400 underline">Customer says </span>
+            <span className="underline">About us</span>
+          </h1>
+        </div>
+        <div>
+          <p className="font-bold leading-loose">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+          </p>
+        </div>
+      </div>
 
-                                      <div className='w-[330px] h-[150px]'>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.
-                                      </div>
-                                      <div>Joy Kim explorer</div>
+      {/* Testimonials */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
+        <div className="rounded-3xl overflow-hidden p-4 bg-white shadow">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p className="mt-3 font-semibold">Joy Kim - Explorer</p>
+        </div>
+        <div className="rounded-3xl overflow-hidden p-4 bg-white shadow">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p className="mt-3 font-semibold">Alex Doe - Traveler</p>
+        </div>
+        <div className="rounded-3xl overflow-hidden p-4 bg-white shadow">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p className="mt-3 font-semibold">Maria Smith - Adventurer</p>
+        </div>
+      </div>
 
-                            </div>
+      {/* Gallery */}
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-7 gap-3 my-10 px-6">
+        <img src={nature} alt="nature" className="rounded-lg" />
+        <img src={lady} alt="lady" className="rounded-lg" />
+        <img src={map} alt="map" className="rounded-lg" />
+        <img src={plane} alt="plane" className="rounded-lg" />
+        <img src={woman} alt="woman" className="rounded-lg" />
+        <img src={mycrush} alt="mycrush" className="rounded-lg" />
+        <img src={water} alt="water" className="rounded-lg" />
+      </div>
 
-                                  
-                            <div className='grid grid-rows-[4fr_1fr]  rounded-3xl overflow-hidden p-4'>
+      {/* Subscribe Section */}
+      <div className="grid grid-cols-1 md:grid-cols-2 place-items-center mt-5 border-b border-b-[#C4C4C4] pb-6 px-6">
+        <div>
+          <p className="font-bold text-xl md:text-3xl text-center md:text-left">
+            Join 98,641 Monthly Readers. <br /> Subscribe Today!
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-[2fr_1fr] gap-2 mt-4 md:mt-0 w-full max-w-md">
+          <input
+            type="email"
+            placeholder="Email Address"
+            className="border border-[#9B9DB3] p-2 rounded-[5px]"
+          />
+          <button className="bg-[#0336FF] text-white w-full sm:w-[150px] h-[50px] rounded-[5px]">
+            Subscribe
+          </button>
+        </div>
+      </div>
 
-                                      <div className='w-[330px] h-[150px]'>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.
-                                      </div>
-                                      <div>Joy Kim explorer</div>
-
-                            </div>
-
-                            
-                            <div className='grid grid-rows-[4fr_1fr]  rounded-3xl overflow-hidden p-4'>
-
-                                      <div className='w-[330px] h-[150px]'>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet faucibus.
-                                      </div>
-                                      <div>Joy Kim explorer</div>
-
-                            </div>
-
-                             <div>
-                              
-                            </div>
-                             <div>
-                              
-                            </div>
-
-                          </div>
-                           <div className='grid grid-cols-7 grid-rows-1'>
-                        <div>
-                      <img src={nature} alt="nature" />
-                        </div>
-                        <div>
-                      <img src={lady} alt="lady" />
-                        </div>
-                        <div>
-                      <img src={map} alt="map" />
-                        </div>
-                         <div>
-                      <img src={plane} alt="plane" />
-                        </div>
-                       <div>
-                      <img src={woman} alt="woman" />
-                       </div>
-                       <div>
-                      <img src={mycrush} alt="mycrush" />
-                       </div>
-                       <div>
-                      <img src={water} alt="water" />
-                      </div>
-                </div>
-                  <div className='grid place-items-center grid-cols-[1fr_1fr] mt-5  border-b border-b-[#C4C4C4]  '>
-                          <div>
-                            <p className='font-bold text-3xl'>Join 98,641 Monthly Readers. <br /> Subscribe Today!</p>
-                          </div>
-                          <div className='grid grid-cols-[2fr_1fr] gap-x-2 '>
-                             <input type="email"  placeholder='Email Address'
-                          
-                          className='grid  border border-[#9B9DB3] p-2 rounded-[5px] '/>
-                          
-                          <div>
-                            <button className='bg-[#0336FF] w-[150px] h-[50px]  rounded-[5px]'>
-                              Subscribe
-                            </button>
-                          </div>
-                          </div>
-                  </div>
-      <Footer></Footer>
-              </div>
-          
+      <Footer />
+    </div>
   )
 }
 
