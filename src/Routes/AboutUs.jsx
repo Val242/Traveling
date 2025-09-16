@@ -15,6 +15,7 @@ import plane from "../assets/plane.png"
 import woman from "../assets/woman.png"
 import mycrush from "../assets/mycrush.png"
 import water from "../assets/water.png"
+import Subscribe from '../Subscribe';
 
 import Footer from './Footer';
 
@@ -169,23 +170,7 @@ function AboutUs() {
       </div>
 
       {/* Subscribe Section */}
-      <div className="grid grid-cols-1 md:grid-cols-2 place-items-center mt-5 border-b border-b-[#C4C4C4] pb-6 px-6">
-        <div>
-          <p className="font-bold text-xl md:text-3xl text-center md:text-left">
-            Join 98,641 Monthly Readers. <br /> Subscribe Today!
-          </p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-[2fr_1fr] gap-2 mt-4 md:mt-0 w-full max-w-md">
-          <input
-            type="email"
-            placeholder="Email Address"
-            className="border border-[#9B9DB3] p-2 rounded-[5px]"
-          />
-          <button className="bg-[#0336FF] text-white w-full sm:w-[150px] h-[50px] rounded-[5px]">
-            Subscribe
-          </button>
-        </div>
-      </div>
+    <Subscribe />
 
       <Footer />
     </div>
